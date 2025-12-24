@@ -8,14 +8,14 @@
         </head>
         <body>
             <header>
-                <div>
+                <div class = "profile-contain">
                     <img class = "profile" src="assets/profile.jpeg" alt = "profile picture"  />
                 </div>
                 <div class="welcome">
                     <p>Welcome</p>
                     <h2>Kazeem Akinrinde</h2>
                 </div>
-                <div>
+                <div  class = "notification-contain">
                     <img class = "icon notification" alt="notification icon" src ="assets/bell.png" />
                 </div>
 
@@ -24,39 +24,45 @@
                 <div class = "name-info" >
                     <div class = "account-name">
                         <h4>Kazeem Akinrinde</h4>
-                        <p>5637718371</p>
+                        <p>5637718371 
+                            <img src = "assets/copy.png" alt="copy icon" /></p>
                     </div>
                     <div class = "history">
-                        <img class = "icon history-icon question" src = "assets/speed.png" alt="Question mark"/>
+                        <p class = "question-contain">
+                            <img class = "icon history-icon question" src = "assets/google-docs.png" alt="Question mark"/>
+                        </p>
                         <p>History</p>
-                        <img class = "icon history-icon right" src = "assets/network.png" alt = "Right arrow" />
+                        <img class = "icon history-icon right" src = "assets/right-arrow.png" alt = "Right arrow" />
                     </div>
                 </div>
-                <p>Book Balance <span>&#8358; ---,--</span></p>
+                <p class = "book-balance">Book Balance <span class="naira">&#8358; ---,--</span></p>
                 <h2 class = "balance">&#8358; ---,--</h2>
                 <div class = "fund-wallet">
                     <button>Fund Wallet</button>
-                    <img class = "icon eye-icon" src = "assets/speed.png" alt="make visible icon" />
+                    <img class = "icon eye-icon" src = "assets/visibility.png" alt="make visible icon" />
+                </div>
+                <div>
+                    <img class = "wallet-image" alt = "wallet image" src = "assets/218390.png"/>
                 </div>
             </main>
-            <section class = "quick-links-section">
-                <h2>Quick Links</h2>
-                <div class = "quick-links-container">
+            <section class = "quick-actions-section">
+                <h2>Quick Actions</h2>
+                <div class = "quick-actions-container">
                     <div class="sub-container" >
-                        <p class = "send-money"><img  class = "quick-links-icon" src = "assets/money.png" alt = "send money icon"/></p>
-                        <p>Send Money</p>
+                        <p class = "sub-contain send-money"><img  class = "quick-actions-icon" src = "assets/money.png" alt = "send money icon"/></p>
+                        <p class = "sub-text">Send Money</p>
                     </div>
                     <div class="sub-container" >
-                        <p class = "airtime"><img  class = "quick-links-icon" src = "assets/wifi.png" alt = "airtime icon"/></p>
-                        <p>Airtime & Data</p>
+                        <p class = "sub-contain airtime"><img  class = "quick-actions-icon" src = "assets/wifi.png" alt = "airtime icon"/></p>
+                        <p class = "sub-text">Airtime & Data</p>
                     </div>
                     <div class="sub-container" >
-                        <p class = "elecricity"><img  class = "quick-links-icon" src = "assets/electricity-bill.png" alt = "Electric bill icon"/></p>
-                        <p>Send Electricity</p>
+                        <p class = "sub-contain electricity"><img  class = "quick-actions-icon" src = "assets/electricity-bill.png" alt = "Electric bill icon"/></p>
+                        <p class = "sub-text">Electricity</p>
                     </div>
                     <div class="sub-container" >
-                        <p class = "cable"><img  class = "quick-links-icon" src = "assets/money.png" alt = "send money icon"/></p>
-                        <p>Cable TV</p>
+                        <p class = "sub-contain cable"><img  class = "quick-actions-icon" src = "assets/tv.png" alt = "send money icon"/></p>
+                        <p class = "sub-text">Cable TV</p>
                     </div>
                 </div>
             </section>
@@ -66,34 +72,38 @@
                     <button>View All</button>
                 </div>
                 <div class = "activity-main">
-                    <img  class = "activity-image" alt = "placeholder image" src = "assets/product-is-empty-illustration-svg-download-png-6430781.png"/>
+                    <div class = "empty-image-contain">
+                        <img  class = "activity-image" alt = "placeholder image" src = "assets/product-is-empty-illustration-svg-download-png-6430781.png"/>
+                    </div>
                     <p>Nothing here, yet</p>
                 </div>
+                
             </section>
             <footer>
                 <nav>
                     <ul>
-                        <li>
-                            <img class = "footer-icon home" src = "assets/home.png" alt = "home icon" />
+                        <li class = "home-contain">
+                            <img class = "footer-icon home icon" src = "assets/home2.png" alt = "home icon" />
                             <p>Home</p>
                         </li>
                         <li>
-                            <img class = "footer-icon" src = "assets/wallet.png" alt = "cards icon" />
+                            <img class = "footer-icon icon" src = "assets/wallet.png" alt = "cards icon" />
                             <p>Wallet</p>
                         </li>
                         <li>
-                            <img class = "footer-icon" src = "assets/electricity-bill.png" alt = " electricity icon" />
+                            <img class = "footer-icon icon" src = "assets/credit-card.png" alt = " electricity icon" />
                             <p>Cards</p>
                         </li>
                         <li>
-                            <img class = "footer-icon " src = "assets/user.png" alt = "profile icon" />
+                            <img class = "footer-icon icon" src = "assets/user.png" alt = "profile icon" />
                             <p>Profile</p>
                         </li>
                     </ul>
                 </nav>
+               
             </footer>
-            <p class = "qr-code">
-                <img class ="qr-code-icon" src = "assets/qr.png" alt = "qr codes" />
-            </p>
+        <button class = "qr-code">
+            <img class ="qr-code-icon icon" src = "assets/qr.png" alt = "qr codes" />
+        </button>
         </body>
     </html>
