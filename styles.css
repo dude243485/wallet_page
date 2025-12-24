@@ -26,6 +26,12 @@ body{
     background-color: rgb(243, 243, 243);
     position: relative;
 }
+
+/* Ensure no space above header */
+body > header:first-child {
+    margin-top: 0;
+    padding-top: 15px;
+}
 h1, h2, h3, h4, h5, p, ul, li, nav, div {
     padding: 0;
     margin : 0;
@@ -39,8 +45,11 @@ header {
     justify-items: center;
     padding: 15px 25px;
     margin: 0;
+    margin-top: -20px;
     border: none;
     gap: 15px;
+    position: relative;
+    top: 0;
 }
 .profile-contain{
     width: 50px;
@@ -280,7 +289,7 @@ main{
 .empty-image-contain{
     overflow: hidden;
     background-image: white;
-    height: 75vh;
+    height: 60vh;
     width: auto;
     margin-bottom: 15px;
 }
