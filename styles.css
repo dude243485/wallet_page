@@ -289,7 +289,7 @@ main{
 .empty-image-contain{
     overflow: hidden;
     background-image: white;
-    height: 60vh;
+    height: 45vh;
     width: auto;
     margin-bottom: 15px;
     display: flex;
