@@ -292,10 +292,13 @@ main{
     height: 60vh;
     width: auto;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .activity-image{
     transform: translateY(0px);
-    height: 80vh;
+    height: 350px;
     max-width: 100%;
     object-fit: contain;
 }
